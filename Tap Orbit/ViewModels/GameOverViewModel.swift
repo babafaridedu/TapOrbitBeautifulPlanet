@@ -6,10 +6,10 @@ final class GameOverViewModel {
     let isNewBest: Bool
     
     let gameOverTitle = "GAME OVER"
-    let scoreLabel = "SCORE"
-    let bestScoreLabel = "BEST"
+    let scoreLabel = "SCORE GAME"
+    let bestScoreLabel = "BEST GAME"
     let retryButtonTitle = "RETRY"
-    let menuButtonTitle = "MENU"
+    let menuButtonTitle = "MENU GAME"
     let nextLevelButtonTitle = "NEXT LEVEL"
     
     var bestScore: Int {
