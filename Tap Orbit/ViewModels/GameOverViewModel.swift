@@ -8,9 +8,9 @@ final class GameOverViewModel {
     let gameOverTitle = "GAME OVER"
     let scoreLabel = "SCORE GAME"
     let bestScoreLabel = "BEST GAME"
-    let retryButtonTitle = "RETRY"
-    let menuButtonTitle = "MENU GAME"
-    let nextLevelButtonTitle = "NEXT LEVEL"
+    let retryButtonTitle = "RETRY GO"
+    let menuButtonTitle = "GAME MENU"
+    let nextLevelButtonTitle = "LEVEL NEXT"
     
     var bestScore: Int {
         GameDataManager.shared.getLevelData(for: level)?.bestScore ?? 0
